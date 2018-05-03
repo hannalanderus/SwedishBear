@@ -8,6 +8,7 @@ body{
     display: flex;
     justify-content: flex-end;
     padding-top: 100px;
+    border: none;
 }
 
 #headerImg {
@@ -79,6 +80,7 @@ nav {
     grid-template-areas: 'title' 'undertext';
     background-color: black;
     height: 600px;
+    border:none;
 }
 
 #firstPartWrapper > div {
@@ -188,6 +190,7 @@ h3 {
     display: flex;
     justify-content: center;
     height: 700px;
+    margin-top: 10%;
 }
 
 #imageFour {
