@@ -1,0 +1,451 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#headWrapper {
+    width: 100%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100px;
+}
+
+#headerImg {
+    width: 90%;
+    height: 20%;
+    margin-top: -30px;
+}
+
+#bearText {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 2em;
+    color: white;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: -50px;
+}
+
+li {
+    display: inline-block;
+
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 10px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    font-size: 0.7em;
+    padding-left: 50px;
+}
+
+nav {
+    display: inline-block;
+    background-color: black;
+}
+
+#navbar {
+    /*border: solid grey;*/
+    margin-top: -130px;
+    right: 0;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+}
+
+/*part one blackbackground*/
+
+#textWrapper {
+    grid-area: title;
+}
+
+#informationWrapper {
+    grid-area: undertext;
+}
+
+#firstPartWrapper {
+    display: grid;
+    grid-template-areas: 'title' 'undertext';
+    background-color: black;
+    height: 600px;
+}
+
+#firstPartWrapper > div {
+    text-align: right;
+    margin: 0px auto;
+    color: white;
+    width: 50%;
+    min-width: 400px;
+
+}
+
+
+
+#textWrapper > h1 {
+    margin-bottom: -60px;
+    font-size: 3em;
+    letter-spacing: 8px;
+    height: auto;
+}
+
+
+#informationWrapper > p {
+    margin-top: -100px;
+    letter-spacing: 1px;
+    height: auto;
+}
+
+
+/*********** Part Two white background********/
+
+#imgWrapperMom {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+#imageOne {
+    background-image: url(Images/2_History.png);
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 900px;
+    background-size: contain;
+    margin-top: -80px;
+
+}
+
+#historyTextWrapper {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#historyText {
+    width: 70%;
+    letter-spacing: 1px;
+    font-size: 0.7em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: -2px;
+}
+
+span {
+    font-size: 0.6em;
+}
+
+#imageThree {
+    background-image: url(Images/3_did%20you%20know.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    background-size: contain;
+    margin-top: 100px;
+
+}
+
+#factWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: -660px;
+}
+
+#fact {
+    opacity: 0.9;
+    background-color: #292A2C;
+    opacity: 10%;
+    height: 200px;
+    width: 50%;
+}
+
+#fact > p {
+    padding: 20px;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+h3 {
+    color: white;
+    padding: 20px;
+}
+
+#imgWrapperSnowBear {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+#imageFour {
+    background-image: url(Images/4_Facts.jpg);
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 1000px;
+    background-size: contain;
+    margin-top: 150px;
+
+}
+
+#seondPartWrapperBackground {
+    background-image: url(Images/8_mountenbackground.png);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100vw;
+    border: none;
+}
+
+#habitatWrapper {
+    background-color: #1D1D1D;
+    margin-top: 0px;
+    height: 100vh;
+    width: 100vw;
+    border: none;
+
+}
+
+#habitatWrapper,
+#overAllWrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 200px;
+}
+
+#headline {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+h4 {
+    color: white;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    margin-bottom: 10px;
+}
+
+#headline > Span {
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+
+#imageFive {
+    content: url(Images/5.1_habitat.jpg);
+    background-repeat: no-repeat;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10%;
+}
+
+#imgWrapperForest > p,
+h5 {
+    color: white;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#imageSix {
+    content: url(Images/5.2_Habitat.jpg);
+    background-repeat: no-repeat;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#imageSeven {
+    content: url(Images/5.3_habitat.jpg);
+    background-repeat: no-repeat;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#imageEight {
+    content: url(Images/6_hunting%20snow.png);
+    background-repeat: no-repeat;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#factWrapperTwo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#factTwo {
+    opacity: 0.8;
+    background-color: black;
+    opacity: 10%;
+    height: 180px;
+    width: 50%;
+    margin-right: 5%;
+    margin-top: -150px;
+}
+
+#factTwo > p {
+    padding: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#factTwo > h6 {
+    color: white;
+    padding-left: 20px;
+    margin-bottom: -20px;
+    font-size: 1em;
+}
+
+/**************/
+
+#imageNine {
+    content: url(Images/7_Over%20all.png);
+    background-repeat: no-repeat;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -15%;
+    margin-bottom: 10%;
+}
+
+#galleryWrapper {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 20%;
+  
+}
+
+#overAllText {
+    width: 50%;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+#imageGalleryOne,
+#imageGalleryTwo,
+#imageGalleryThree {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 15%;
+}
+
+#imageGalleryFour {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10%;
+}
+
+#factWrapperThree {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#factThree {
+    opacity: 0.8;
+    background-color: black;
+    opacity: 10%;
+    height: 100px;
+    width: 50%;
+    margin-left: 15%;
+    margin-top: -100px;
+}
+
+#factThree > p {
+    overflow: hidden;
+    padding: 20px;
+    color: white;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+}
+
+#factThree > h6 {
+    color: white;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: -20px;
+    font-size: 0.9em;
+}
+/********** footer ******/
+footer{
+    background-color: #1D1D1D;
+}
+#footerWrapper{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+#address,
+#email,
+#socialmedia{
+    width: 200px;
+    height: auto;
+    padding: 5%;
+}
+
+#address > h7,
+#email > h7,
+#socialmedia > h7{
+    font-size: 0.8em;
+    color: #F0B562;
+    text-align: left; 
+}
+#address > p,
+#email > p,
+#socialmedia > p{
+    color: #A8A8A8;
+    margin-bottom: -25px;
+    
+}
+
+#instagramIcon, #twitterIcon, #facebookIcon{
+    text-align: left;
+   padding-top: 5%;
+   width: 17%;
+}
+
