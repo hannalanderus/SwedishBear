@@ -2,7 +2,6 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 #headWrapper {
-    width: 100%;
     position: relative;
     background-color: black;
     border-bottom: solid black;
