@@ -129,6 +129,8 @@ nav {
     margin-top: 60px;
     display: flex;
     justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
 }
 
 #historyText {
@@ -391,7 +393,8 @@ h5 {
     height: 100px;
     width: 50%;
     margin-left: 15%;
-    margin-top: -100px;
+    margin-top: -130px;
+    padding: 10px;
 }
 
 #factThree > p {
