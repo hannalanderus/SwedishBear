@@ -111,20 +111,23 @@ nav {
 
 
 /*********** Part Two white background********/
+#partTwo{
+display: flex;
+flex-direction: column;
+height: auto;
+/*border: solid red;*/
 
-#imgWrapperMom {
-    display: flex;
-    justify-content: center;
-    border: none;
 }
 
+
 #imageOne {
-    background-image: url(Images/2_History.png);
-    background-repeat: no-repeat;
+    content: url(Images/2_History.png);
     width: 70%;
-    height: 900px;
-    background-size: contain;
-    margin-top: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -10%;
+    margin-bottom: 10%;
 
 }
 
@@ -152,39 +155,44 @@ span {
 }
 
 #imageThree {
-    background-image: url(Images/3_did%20you%20know.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 1000px;
-    background-size: contain;
-    margin-top: 100px;
-
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 #factWrapper {
     display: flex;
     justify-content: center;
-    margin-top: -660px;
+    
 }
 
 #fact {
     opacity: 0.9;
     background-color: #292A2C;
     opacity: 10%;
-    height: 200px;
-    width: 50%;
+    height: auto;
+    width: 60%;
+    padding: 15px;
+    margin-top: -20%;
 }
 
 #fact > p {
-    padding: 20px;
     color: white;
     letter-spacing: 1px;
+    font-size: 0.8em;
 
 }
 
 h3 {
+    letter-spacing: 1px;
+    font-size: 0.9em;
     color: white;
-    padding: 20px;
+    padding-left: 15px;
+    padding-right:15px;
 }
 
 #imgWrapperSnowBear {
@@ -248,16 +256,6 @@ h4 {
 }
 
 
-#imageFive {
-    content: url(Images/5.1_habitat.jpg);
-    background-repeat: no-repeat;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 10%;
-}
-
 #imgWrapperForest > p,
 h5 {
     color: white;
@@ -269,9 +267,9 @@ h5 {
     display: block;
 }
 
-#imageSix {
-    content: url(Images/5.2_Habitat.jpg);
-    background-repeat: no-repeat;
+#imageFive,
+#imageSix,
+#imageSeven {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -280,20 +278,8 @@ h5 {
     margin-bottom: 10%;
 }
 
-#imageSeven {
-    content: url(Images/5.3_habitat.jpg);
-    background-repeat: no-repeat;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
 
 #imageEight {
-    content: url(Images/6_hunting%20snow.png);
-    background-repeat: no-repeat;
     width: 90%;
     height: auto;
     margin-left: auto;
